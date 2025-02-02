@@ -77,7 +77,7 @@ const result = "This is a sentence.".match(regex); // Matches "."
 -   **`i`** (case-insensitive): Ignores case differences when matching letters.
 -   **`m`** (multi-line): Changes the behavior of ^ and $ anchors to match the beginning and end of each line within the text, rather than just the beginning and end of the entire text.
 -   **`s`** (dotAll): Allows the dot (.) to match newline characters (\n), which it doesn't do by default.
--   **`u`** ([unicode](https://regex-pro.netlify.app/unicode)): Enables full Unicode support for the regex pattern.
+-   **`u`** (unicode): Enables full Unicode support for the regex pattern.
 -   **`y`** (sticky): Matches only from the last index where a previous match ended.
 
 **Example:**
